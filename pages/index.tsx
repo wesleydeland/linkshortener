@@ -80,7 +80,7 @@ export default function Home() {
               </div>
             </div>
           </Form>
-          {['error', 'success'].includes(status) && (<Alert showIcon message={<a href={"https://"+ message} onClick={() => {navigator.clipboard.writeText(message)}} target='_blank'>{message}</a>} type={status as 'error' | 'success'} />)}
+          {['error', 'success'].includes(status) && (<Alert showIcon message={<a href={message} onClick={() => {navigator.clipboard.writeText(message)}} target='_blank'>{message}</a>} type={status as 'error' | 'success'} />)}
         </div>
       </Content>
       <Footer className={styles.footer}>
