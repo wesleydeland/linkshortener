@@ -51,7 +51,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header>
-        <div className={styles.logo} />
+        <div>
+          <Title className={styles.siteName}>Wesley's Super Awesome Link-Shortener</Title>
+        </div>
       </Header>
       <Content className={styles.content}>
         <div className={styles.shortner}>
