@@ -86,7 +86,7 @@ export default function Home() {
         </div>
       </Content>
       <Footer className={styles.footer}>
-        Wesley Deland &copy; 2021
+        Wesley Deland &copy; 2023
       </Footer>
     </Layout>
   )
